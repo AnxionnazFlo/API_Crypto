@@ -37,13 +37,14 @@ http://api.coinlayer.com/api/
 
 - Créer une fichier .env à la racine du Projet
 
-- Ecrire dans le fichier .env :
+- Ecrire dans le fichier .env :  
   `const endpoint = 'live'`
 
-- Générer un token sur Coinlayer pour accéder à l'API
+- Générer un token sur Coinlayer pour accéder à l'API  
     https://coinlayer.com/product
 
-- Ecrire votre token (dans le fichier .env) pour l'API Coinlayer sous la forme : `const access_key = 'Votre_token_ici'`
+- Ecrire votre token (dans le fichier .env) pour l'API Coinlayer sous la forme :  
+ `const access_key = 'Votre_token_ici'`
 
 - Tout devrais fonctionner à présent
 
