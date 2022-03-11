@@ -1,9 +1,6 @@
 let target = 'USD';
 
 
-
-
-
 async function getInformationsFromAPI() {
 
     try {

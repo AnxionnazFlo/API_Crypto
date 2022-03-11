@@ -37,8 +37,6 @@ function datasDisplayTable(datas) {
     const tableau = document.querySelector('#tableau');
     tableau.innerHTML = "";
     for (let i in rates) {
-        // document.querySelector('#test').innerHTML += i + "=" + rates[i] + '<br>'
-
         tableau.innerHTML += ` <tr class="table-dark">
         <th scope="row">${i}</th>
         <td>${rates[i]}</td>
